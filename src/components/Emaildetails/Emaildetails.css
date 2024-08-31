@@ -1,0 +1,107 @@
+.email-details{
+    width:60%;
+    padding:10px
+}
+.divider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0; 
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 0.2px;
+    background-color: #d3d3d3; 
+    margin: 0 ;
+  }
+  
+  .today-text {
+    white-space: nowrap;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  .lead{
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  }
+  .lead-actions{
+    display: flex;
+ 
+  
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 5px;
+
+  }
+
+  .complete{
+    width: 200px;
+  }
+  .complete,.move,.more{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .move{
+    outline: none !important;
+    border: none  ;
+    color:grey;
+  }
+.email-head{
+    display: flex;
+    justify-content: space-between;
+}
+.sr{
+    padding: 10px;
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content{
+  width: 50%;
+  text-align: left;
+}
+
+.button-reply{
+    margin-top: 7rem !important;
+    background: linear-gradient(to right,#4059d7,#0624BD);
+ 
+}
+.replyfrom{
+    display: flex;
+    flex-direction: column;
+ 
+    gap:0.5rem
+   
+}
+.borderless{
+    outline: none !important;
+    border: none;
+   
+}
+.line2{
+    height:0.2px;
+    width: 100%;
+    background-color: #d3d3d3;
+   
+}
+.reply-head{
+  display: flex;
+  justify-content: space-between;
+}
+.button-send{
+  background: linear-gradient(to right,#4059d7,#0624BD);
+}
+
+.modal-actions{
+  display: flex;
+  gap: 2rem;
+}

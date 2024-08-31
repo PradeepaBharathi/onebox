@@ -1,0 +1,11 @@
+.lead-info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.lead-information,.activity{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

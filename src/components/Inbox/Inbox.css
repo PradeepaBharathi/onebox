@@ -1,0 +1,35 @@
+.inbox{
+margin-right: 10px;
+width: 20%;
+}
+.inbox-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.refreshimg{
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+}
+.inboxlength{
+    display: flex;
+    flex-direction: column;
+
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .new-btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  

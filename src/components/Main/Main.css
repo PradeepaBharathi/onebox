@@ -1,0 +1,10 @@
+.breaker{
+  width:1px;
+  height: 640px;
+  background-color: #d3d3d3;
+  
+}
+.main-container{
+  display: flex;
+justify-content: space-between;
+}

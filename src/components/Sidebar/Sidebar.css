@@ -1,0 +1,56 @@
+.sidebar {
+    width: 60px;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    height: 97.3vh;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: #d3d3d3;
+  }
+  
+  nav ul li.active {
+    color: #fff;
+  }
+  
+  .user-icon {
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .logout-btn{
+    background: linear-gradient(to right,#4059d7,#0624BD);
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #d3d3d3;
+    font-size: 17px;
+
+  }
+  
