@@ -8,7 +8,7 @@ function Login() {
   const navigate = useNavigate();
 
   const handleGoogleSignUp = () => {
-    window.location.href = 'https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:3000/google-login';
+    window.location.href = 'https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://oneboxp01.netlify.app/google-login';
   };
 
   return (
